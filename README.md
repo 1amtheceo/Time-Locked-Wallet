@@ -6,7 +6,8 @@
 3.Withdraw funds after the unlock time using the withdraw() function.
 
 
-// Deploy the wallet with a 1-week lock period
+Deploy the wallet with a 1-week lock period
+
 TimeLockedWallet wallet = new TimeLockedWallet(block.timestamp + 7 days);
 
 🛡️ Use case:
